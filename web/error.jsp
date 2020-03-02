@@ -10,7 +10,13 @@
 <head>
     <title>验证错误</title>
 </head>
+
+<script>
+    Splitting({
+        whitespace: true
+    })
+</script>
 <body>
-错误
+<h1 data-splitting>用户名或密码错误~~~</h1>
 </body>
 </html>

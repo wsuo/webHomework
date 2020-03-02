@@ -2,6 +2,29 @@
            pageEncoding="UTF-8"%>
 <html>
 <head><title>作业一:本章测试</title></head>
+<style>
+  form {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    transform: skewY(-5deg) translateY(10%) scale(0.94);
+    transition:
+            box-shadow var(--duration) var(--ease),
+            transform var(--duration) var(--ease);}
+
+  input {
+    flex: 1 1 0;
+    width: 100%;
+    outline: none;
+    padding: var(--space-m);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    color: var(--color-secondary);
+    border: 2px solid var(--color-primary);
+
+  }
+</style>
 <body>
 <p>请回答下面的问题：</p>
 <form action="/webHomework01/simpleTest" method="post">

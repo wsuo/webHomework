@@ -12,8 +12,8 @@
 </head>
 <body>
 <h1>
-<%out.print(request.getAttribute("host"));%>
-<%out.print(request.getAttribute("time"));%>
+您从<%out.print(request.getAttribute("host"));%>登陆，时间是
+<%out.print(request.getAttribute("time"));%>，<p> 请求参数为：
 <%out.print(request.getAttribute("para"));%></h1>
 </body>
 </html>
