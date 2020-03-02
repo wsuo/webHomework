@@ -33,7 +33,8 @@ public class SimpleTestServlet extends HttpServlet {
             total += 25;
         }
         request.setAttribute("score", total);//将分数存储在请求域中
-        System.out.println(total);
+        //System.out.println(total);
+        //转发到分数页面
         request.getRequestDispatcher("/score.jsp").forward(request, response);
     }
 

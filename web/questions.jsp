@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8"
            pageEncoding="UTF-8"%>
 <html>
-<head><title>简单测试</title></head>
+<head><title>作业一:本章测试</title></head>
 <body>
 <p>请回答下面的问题：</p>
 <form action="/webHomework01/simpleTest" method="post">
