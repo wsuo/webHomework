@@ -2824,7 +2824,7 @@
           <div class='tip'>
           </div>
         </div>
-        <div class='select_option_text' onclick="goTo('book.html');">
+        <div class='select_option_text' onclick="goTo('index.jsp');">
           <span>作业四</span>
           <div class='line'></div>
           <div class='tip'>
