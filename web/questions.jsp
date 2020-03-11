@@ -22,7 +22,6 @@
     font-family: var(--font-family);
     color: var(--color-secondary);
     border: 2px solid var(--color-primary);
-
   }
 </style>
 <body>

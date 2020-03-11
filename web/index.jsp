@@ -2806,26 +2806,26 @@
       <div class='select_option'>
         <!-- 最外层选择项的有文字部分 -->
         <div class='select_option_text' onclick="goTo('questions.jsp');">
-          <span>作业一</span>
+          <span>简单测试</span>
           <div class='line'></div>
           <div class='tip'>
           </div>
         </div>
         <div class='select_option_text' onclick="goTo('http://localhost:8080/webHomework01/servlet1?select=select * from table')">
 <%--          http://localhost:8080/webHomework01/servlet1+ '?' + 'select=select * from table'--%>
-          <span>作业二</span>
+          <span>获取主机信息</span>
           <div class='line'></div>
           <div class='tip'>
           </div>
         </div>
         <div class='select_option_text' onclick="goTo('login.jsp');">
-          <span>作业三</span>
+          <span>单点登陆</span>
           <div class='line'></div>
           <div class='tip'>
           </div>
         </div>
-        <div class='select_option_text' onclick="goTo('index.jsp');">
-          <span>作业四</span>
+        <div class='select_option_text' onclick="goTo('fileUpload.jsp');">
+          <span>文件上传</span>
           <div class='line'></div>
           <div class='tip'>
           </div>
